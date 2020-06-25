@@ -96,7 +96,6 @@ h3 {
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
-    color: #484848;
 }
 
 .container {
@@ -299,7 +298,6 @@ hr {
 .sectionLeftHeading {
     max-width: 600px;
     margin-top: 75px;
-    margin-bottom: 47px;
 }
 
 .section4Desc {
@@ -330,11 +328,6 @@ hr {
     border: 1px solid #c4c1c1;
     padding: 32px 48px 48px 48px;
     height: 300px;
-    transition: all 0.5s;
-}
-
-.partnerDesc:hover {
-    border: 1px solid #008489;
 }
 
 .itemPatner img {
