@@ -1,0 +1,347 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    font-family: Helvetica Neue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    color: #484848;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+p {
+    color: #706f6f;
+    font-size: 16px;
+}
+
+header>h1>img {
+    height: 34px;
+    width: 34px;
+    margin: 23px;
+}
+
+header>h1 {
+    margin-right: auto;
+}
+
+.topSearchBar input {
+    border: none;
+}
+
+.topSearchBar input:focus {
+    outline: none;
+}
+
+.topSearchBar {
+    position: absolute;
+    left: 100px;
+    width: 460px;
+    height: 48px;
+    left: 80px;
+    top: 16px;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.topSearchBar:hover {
+    width: 700px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.searchBarIcon {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.jpIcon {
+    vertical-align: middle;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    margin: 16px;
+    border-bottom: 1.5px solid rgba(255, 255, 0, 0);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 80px;
+}
+
+nav>ul>li:hover {
+    border-bottom: 1.5px solid #555454;
+}
+
+.topWrapper {
+    margin-top: 3px;
+    width: 100%;
+    height: 565px;
+    background-image: url(https://a0.muscache.com/airbnb/static/diversity/inclusion/Hero1-df91c6cd36186c72029bfa46a8002a5d.jpg);
+}
+
+.topMessage {
+    position: relative;
+    top: 210px;
+    color: #fff;
+    margin-left: 220px;
+    width: 481px;
+}
+
+.topMessage h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+}
+
+.topMessage p {
+    letter-spacing: -0.2px;
+    color: #fff;
+}
+
+article {
+    margin-top: 70px;
+}
+
+.section1 {
+    text-align: center;
+    color: #706f6f;
+    margin-bottom: 14px;
+}
+
+.desc1 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ceoProfile {
+    margin-top: 30px;
+}
+
+.ceoProfile img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: #484848;
+}
+
+.section2 {
+    margin-top: 43px;
+    margin-bottom: 63px;
+}
+
+.section2 h2 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    margin-bottom: 33px;
+}
+
+.section2 p {
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+
+.section3 {
+    margin-top: 75px;
+    color: #706f6f;
+}
+
+.section3Message {
+    text-align: left;
+    width: 55%;
+    margin-bottom: 72px;
+}
+
+.section3 h2 {
+    margin-bottom: 10px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexContainer img {
+    width: 100%;
+}
+
+.flexContainer h3 {
+    margin-bottom: 8px;
+}
+
+.item {
+    max-width: 50%;
+    padding: 0 12px 36px;
+}
+
+.section4 {
+    max-width: 600px;
+    margin-top: 75px;
+    margin-bottom: 74px;
+}
+
+.sectionLeftHeading {
+    max-width: 600px;
+    margin-top: 75px;
+}
+
+.section4Desc {
+    margin-bottom: 44px;
+}
+
+.section4Desc h3 {
+    margin-bottom: 14px;
+}
+
+.breakImage {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 65px;
+}
+
+.section5 .sectionLeftHeading p {
+    margin-bottom: 48px;
+}
+
+.itemPatner {
+    max-width: 50%;
+    padding: 0 12px 36px;
+    margin-bottom: 24px;
+}
+
+.partnerDesc {
+    border: 1px solid #c4c1c1;
+    padding: 32px 48px 48px 48px;
+    height: 300px;
+}
+
+.itemPatner img {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+.catBtn a {
+    padding: 30px;
+    width: 287px;
+    height: 48px;
+    left: 109px;
+    top: 5922px;
+    background: #008489;
+    border-radius: 4px;
+}
