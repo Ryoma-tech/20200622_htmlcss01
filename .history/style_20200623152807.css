@@ -1,0 +1,152 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    font-family: Helvetica Neue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header>h1>img {
+    height: 34px;
+    width: 34px;
+    margin: 23px;
+}
+
+header>h1 {
+    margin-right: auto;
+}
+
+.topSearchBar input {
+    border: none;
+}
+
+.topSearchBar input:focus {
+    outline: none;
+}
+
+.topSearchBar {
+    position: absolute;
+    left: 100px;
+    width: 460px;
+    height: 48px;
+    left: 80px;
+    top: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.topSearchBar:hover {
+    width: 700px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.searchBarIcon {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.jpIcon {
+    vertical-align: middle;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    margin: 16px;
+    border-bottom: 1.5px solid rgba(255, 255, 0, 0);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 80px;
+}
+
+nav>ul>li:hover {
+    border-bottom: 1.5px solid #555454;
+}
+
+.topWrapper {
+    margin-top: 3px;
+    width: 100%;
+    height: 565px;
+    background-image: url(https://a0.muscache.com/airbnb/static/diversity/inclusion/Hero1-df91c6cd36186c72029bfa46a8002a5d.jpg);
+}
+
+.topMessage {
+    position: relative;
+    top: 210px;
+    color: #fff;
+    margin-left: 220px;
+    width: 481px;
+}
+
+.topMessage h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+}
+
+.topMessage p {
+    letter-spacing: -0.2px;
+    color: #fff;
+}
+
+article {
+    margin-top: 70px;
+}
+
+.section1 {
+    text-align: center;
+    color: #484848;
+}
+
+.desc1 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ceoProfile {
+    margin-top: 30px;
+}
+
+.ceoProfile img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: #DCE0E0;
+}
