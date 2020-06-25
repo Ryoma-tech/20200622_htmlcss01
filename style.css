@@ -191,7 +191,6 @@ nav>ul>li:hover {
     position: relative;
     top: 210px;
     color: #fff;
-    margin-left: 220px;
     width: 481px;
 }
 
@@ -219,7 +218,7 @@ article {
 }
 
 .desc1 {
-    width: 600px;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -260,12 +259,6 @@ hr {
 .section3 {
     margin-top: 75px;
     color: #706f6f;
-}
-
-.section3Message {
-    text-align: left;
-    width: 55%;
-    margin-bottom: 72px;
 }
 
 .section3 h2 {
@@ -383,4 +376,40 @@ footer .container {
 footer img {
     height: 20px;
     width: 20px;
+}
+
+@media(max-width: 767px) {
+    body {
+        max-width: 100%;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    nav {
+        display: none;
+    }
+    .topMessage {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .topSearchBar {
+        width: 60%;
+        margin-right: 100px;
+    }
+    ..topSearchBar:hover {
+        width: 70%;
+    }
+    .item {
+        max-width: 100%;
+    }
+    .itemPatner {
+        max-width: 100%;
+    }
+    .breakImage {
+        width: auto;
+    }
 }
